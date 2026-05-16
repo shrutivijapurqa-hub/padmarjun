@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>35ನೇ ವಿವಾಹ ವಾರ್ಷಿಕೋತ್ಸವ</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #ffe4ec, #ffffff, #fff5cc);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #d63384;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-top: 15px;
+    }
+
+    .message-box {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin-top: 40px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 50px 0 30px;
+      color: #c2185b;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      margin: 15px 0;
+      color: #d63384;
+    }
+
+    .timeline {
+      margin-top: 40px;
+    }
+
+    .timeline-item {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 8px solid #ff4d88;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .timeline-item h3 {
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #d63384;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 50px;
+    }
+
+    footer h2 {
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <section class="hero">
+      <h1>💖 35ನೇ ವಿವಾಹ ವಾರ್ಷಿಕೋತ್ಸವದ ಶುಭಾಶಯಗಳು 💖</h1>
+
+      <p>35 ವರ್ಷಗಳ ಪ್ರೀತಿ, ನಂಬಿಕೆ ಮತ್ತು ಸಂತೋಷದ ಪಯಣ ❤️</p>
+
+      <p>
+        ನಿಮ್ಮ ಪ್ರೀತಿ, ಸಹನೆ, ತ್ಯಾಗ ಮತ್ತು ಕುಟುಂಬದ ಮೇಲಿನ ಕಾಳಜಿ
+        ನಮ್ಮ ಜೀವನಕ್ಕೆ ದೊಡ್ಡ ಪ್ರೇರಣೆ.
+      </p>
+
+      <div class="message-box">
+        <h2>❤️ ಅಪ್ಪ & ಅಮ್ಮ ❤️</h2>
+
+        <p>
+          "ನಿಮ್ಮ ಪ್ರೀತಿ ಎಂದಿಗೂ ಕಡಿಮೆಯಾಗದಿರಲಿ,
+          ನಿಮ್ಮ ನಗು ಸದಾ ಹೀಗೆ ಇರಲಿ,
+          ನಿಮ್ಮ ಜೀವನದಲ್ಲಿ ಆರೋಗ್ಯ, ಸಂತೋಷ ಮತ್ತು ಶಾಂತಿ ತುಂಬಿರಲಿ."
+        </p>
+      </div>
+    </section>
+
+    <h2 class="section-title">🌸 ನಮ್ಮ ನೆನಪುಗಳು 🌸</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h1>👨‍👩‍👧</h1>
+        <h3>ಕುಟುಂಬ</h3>
+        <p>ನಮ್ಮ ಕುಟುಂಬವನ್ನು ಪ್ರೀತಿಯಿಂದ ಕಟ್ಟಿದ ನಿಮ್ಮಿಬ್ಬರಿಗೆ ಧನ್ಯವಾದಗಳು.</p>
+      </div>
+
+      <div class="card">
+        <h1>💞</h1>
+        <h3>ಪ್ರೀತಿ</h3>
+        <p>ವರ್ಷಗಳು ಕಳೆದರೂ ನಿಮ್ಮ ಪ್ರೀತಿ ಇನ್ನಷ್ಟು ಗಾಢವಾಗಿದೆ.</p>
+      </div>
+
+      <div class="card">
+        <h1>🌟</h1>
+        <h3>ಆಶೀರ್ವಾದ</h3>
+        <p>ನಿಮ್ಮ ಆಶೀರ್ವಾದವೇ ನಮ್ಮ ಜೀವನದ ದೊಡ್ಡ ಶಕ್ತಿ.</p>
+      </div>
+    </div>
+
+    <h2 class="section-title">🕰️ ನಮ್ಮ ಕುಟುಂಬದ ಸುಂದರ ಪಯಣ 🕰️</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <h3>💍 16 ಮೇ 1991</h3>
+        <p>ಅಪ್ಪ ಮತ್ತು ಅಮ್ಮ ಅವರ ವಿವಾಹ ಜೀವನ ಆರಂಭವಾಯಿತು ❤️</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>👶 26 ಜೂನ್ 1992</h3>
+        <p>ಮೊದಲ ಮಗ ರಾಘವೇಂದ್ರ ಜನಿಸಿದರು 🌟</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>👶 24 ಮಾರ್ಚ್ 1994</h3>
+        <p>ಎರಡನೇ ಮಗ ಮಂಜುನಾಥ್ ಜನಿಸಿದರು 💖</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>🏠 11 ಆಗಸ್ಟ್ 2021</h3>
+        <p>ನಮ್ಮ ಹೊಸ ಮನೆಯ ಗೃಹ ಪ್ರವೇಶ ಸಮಾರಂಭ ನೆರವೇರಿತು ✨</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>💑 11 ಫೆಬ್ರವರಿ 2022</h3>
+        <p>ಇಬ್ಬರು ಮಕ್ಕಳು ವಿವಾಹ ಜೀವನಕ್ಕೆ ಕಾಲಿಟ್ಟರು 🎉</p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>🍼 19 ಏಪ್ರಿಲ್ 2023</h3>
+        <p>ಚಿರಾಗ್ ನಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಆಗಮನ ಮಾಡಿದನು 🌸</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <h2>💕 Happy Anniversary Amma & Appa 💕</h2>
+
+    <p>
+      ನಿಮ್ಮ ಪ್ರೀತಿ ಎಂದೆಂದಿಗೂ ಹೀಗೆ ಇರಲಿ.
+      ನೀವು ನಮ್ಮ ಜೀವನದ ದೊಡ್ಡ ಉಡುಗೊರೆ.
+    </p>
+
+    <br />
+
+    <h3>With Love ❤️</h3>
+  </footer>
+
+</body>
+</html>
